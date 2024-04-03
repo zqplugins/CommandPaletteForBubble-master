@@ -1,0 +1,93 @@
+{
+  "pages": [
+    {
+      "name": "Page 1",
+      "prefix": "",
+      "lists": [
+        {
+          "name": "Shopping List",
+          "items": [
+            { 
+              "name": "Go to page-2",
+              "icon": "ShoppingCartIcon",
+              "closeOnSelect": false,
+              "pageOnSelect": "page-2",
+              "type": "Page Changer" 
+            },
+            {
+              "name": "Command with arguments",
+              "icon": "ShoppingCartIcon",
+              "closeOnSelect": false,
+              "type": "Command"
+            },
+            {
+              "name": "Eggs",
+              "icon": "ShoppingCartIcon",
+              "type": "Type goes here, but optional"
+            }
+          ]
+        },
+        {
+          "name": "Todo List",
+          "items": [
+            {
+              "name": "Wash dishes",
+              "icon": "CheckCircleIcon"
+            },
+            {
+              "name": "Take out the trash",
+              "icon": "MinusCircleIcon"
+            },
+            {
+              "name": "Do laundry",
+              "icon": "MinusCircleIcon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Page 2",
+      "prefix": "Page 2",
+      "lists": [
+        {
+          "name": "Fruit List",
+          "items": [
+            {
+              "name": "Back to page 1",
+              "icon": "MinusCircleIcon",
+              "closeOnSelect": false,
+              "pageOnSelect": "page-1"
+            },
+            {
+              "name": "Banana",
+              "icon": "MinusCircleIcon"
+            },
+            {
+              "name": "Orange",
+              "icon": "MinusCircleIcon"
+            }
+          ]
+        },
+        {
+          "name": "Work List",
+          "items": [
+            {
+              "name": "Complete project report",
+              "icon": "MinusCircleIcon"
+            },
+            {
+              "name": "Another command with arguments just for fun",
+              "icon": "MinusCircleIcon",
+              "closeOnSelect": false
+            },
+            {
+              "name": "Schedule meeting",
+              "icon": "MinusCircleIcon"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
