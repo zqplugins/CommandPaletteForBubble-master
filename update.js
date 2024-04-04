@@ -112,7 +112,7 @@ const CommandPalettePlugin = (props) => {
 
   useEffect(() => {
     function handleKeyDown(e) {
-      if (((e.metaKey || e.altKey) && e.key === "k") || e.key === "§") {
+      if (((e.metaKey || e.altKey) && (e.key === "k" || e.code === "KeyK")) || e.key === "§") {
         e.preventDefault();
         e.stopPropagation();
         setOpen(true);
